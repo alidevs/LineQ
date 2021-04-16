@@ -8,4 +8,5 @@ target 'LineQ' do
   # Pods for LineQ
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+	pod 'Firebase/Database'
 end
