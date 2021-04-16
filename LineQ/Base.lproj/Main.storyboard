@@ -8,6 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Butler_Black.otf">
+            <string>Butler-Black</string>
+        </array>
         <array key="Butler_Bold.otf">
             <string>Butler-Bold</string>
         </array>
@@ -22,6 +25,9 @@
         </array>
         <array key="RobotoMono-Italic.ttf">
             <string>RobotoMono-Italic</string>
+        </array>
+        <array key="RobotoMono-MediumItalic.ttf">
+            <string>RobotoMono-MediumItalic</string>
         </array>
         <array key="RobotoMono-Regular.ttf">
             <string>RobotoMono-Regular</string>
@@ -405,6 +411,141 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6T-nn-fq1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="535" y="978"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Ny-AF-hsb">
+            <objects>
+                <viewController id="uha-g7-g3Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UE2-HY-1k3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mui-z8-OgT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="8p2-g7-O3h"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2q-QI-aIo">
+                                <rect key="frame" x="271.5" y="301" width="70.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="3zx-hG-3p6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RobotoMono-MediumItalic" family="Roboto Mono" pointSize="15"/>
+                                <color key="textColor" red="0.73725490199999999" green="0.52156862749999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4I-WQ-Dag">
+                                <rect key="frame" x="72" y="269" width="270" height="32"/>
+                                <fontDescription key="fontDescription" name="Butler-Black" family="Butler" pointSize="32"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.1647058824" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEz-pU-hs7">
+                                <rect key="frame" x="25" y="346" width="364" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7WY-DK-oI7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Butler" family="Butler" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ggk-7F-mzB">
+                                <rect key="frame" x="25" y="427" width="364" height="56"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fzT-sR-rTf">
+                                        <rect key="frame" x="0.0" y="0.0" width="178.5" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tW9-4u-0xZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="178.5" height="28"/>
+                                                <fontDescription key="fontDescription" name="RobotoMono-Bold" family="Roboto Mono" pointSize="17"/>
+                                                <color key="textColor" red="0.73725490199999999" green="0.52156862749999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfQ-8j-xx7">
+                                                <rect key="frame" x="0.0" y="28" width="178.5" height="28"/>
+                                                <fontDescription key="fontDescription" name="Butler" family="Butler" pointSize="28"/>
+                                                <color key="textColor" red="0.10980392160000001" green="0.1647058824" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WYU-dC-sFt">
+                                        <rect key="frame" x="185.5" y="0.0" width="178.5" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IN QUEUE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oM-Nw-w9n">
+                                                <rect key="frame" x="0.0" y="0.0" width="178.5" height="28"/>
+                                                <fontDescription key="fontDescription" name="RobotoMono-Bold" family="Roboto Mono" pointSize="17"/>
+                                                <color key="textColor" red="0.73725490199999999" green="0.52156862749999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 tables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQi-lH-mcy">
+                                                <rect key="frame" x="0.0" y="28" width="178.5" height="28"/>
+                                                <fontDescription key="fontDescription" name="Butler" family="Butler" pointSize="28"/>
+                                                <color key="textColor" red="0.10980392160000001" green="0.1647058824" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnY-Rg-HSP">
+                                <rect key="frame" x="0.0" y="416" width="414" height="1"/>
+                                <color key="backgroundColor" red="0.73725490199999999" green="0.52156862749999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ywM-EH-VHk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ce8-ks-40u">
+                                <rect key="frame" x="0.0" y="493" width="414" height="1"/>
+                                <color key="backgroundColor" red="0.73725490199999999" green="0.52156862749999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="PtV-0c-3qm"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92u-pf-4u0">
+                                <rect key="frame" x="25" y="787" width="364" height="50"/>
+                                <color key="backgroundColor" red="0.10980392160000001" green="0.1647058824" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IPX-Ul-rrh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Butler-Bold" family="Butler" pointSize="22"/>
+                                <state key="normal" title="Reserve">
+                                    <color key="titleColor" red="0.97254901959999995" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tvl-eI-8Ha"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tvl-eI-8Ha" firstAttribute="trailing" secondItem="ggk-7F-mzB" secondAttribute="trailing" constant="25" id="071-TR-Rta"/>
+                            <constraint firstItem="uEz-pU-hs7" firstAttribute="top" secondItem="Y2q-QI-aIo" secondAttribute="bottom" constant="20" id="1sB-F0-PGc"/>
+                            <constraint firstItem="uEz-pU-hs7" firstAttribute="leading" secondItem="tvl-eI-8Ha" secondAttribute="leading" constant="25" id="2Q7-Oo-SsN"/>
+                            <constraint firstAttribute="trailing" secondItem="uEz-pU-hs7" secondAttribute="trailing" constant="25" id="5E0-RJ-xGz"/>
+                            <constraint firstItem="ce8-ks-40u" firstAttribute="top" secondItem="ggk-7F-mzB" secondAttribute="bottom" constant="10" id="5f4-46-DeG"/>
+                            <constraint firstItem="ce8-ks-40u" firstAttribute="leading" secondItem="UE2-HY-1k3" secondAttribute="leading" id="AWu-FP-jk4"/>
+                            <constraint firstItem="tvl-eI-8Ha" firstAttribute="trailing" secondItem="mui-z8-OgT" secondAttribute="trailing" id="C3h-rf-N3w"/>
+                            <constraint firstItem="mui-z8-OgT" firstAttribute="leading" secondItem="tvl-eI-8Ha" secondAttribute="leading" id="F30-TT-Yqv"/>
+                            <constraint firstItem="tvl-eI-8Ha" firstAttribute="trailing" secondItem="92u-pf-4u0" secondAttribute="trailing" constant="25" id="HSw-b3-yxv"/>
+                            <constraint firstItem="tvl-eI-8Ha" firstAttribute="bottom" secondItem="92u-pf-4u0" secondAttribute="bottom" constant="25" id="MVv-e7-06G"/>
+                            <constraint firstItem="gnY-Rg-HSP" firstAttribute="top" secondItem="uEz-pU-hs7" secondAttribute="bottom" constant="20" id="Mmc-Ax-h2j"/>
+                            <constraint firstAttribute="trailing" secondItem="ce8-ks-40u" secondAttribute="trailing" id="R2G-UR-Xsl"/>
+                            <constraint firstItem="92u-pf-4u0" firstAttribute="leading" secondItem="tvl-eI-8Ha" secondAttribute="leading" constant="25" id="Z4Y-36-hfV"/>
+                            <constraint firstItem="ggk-7F-mzB" firstAttribute="leading" secondItem="tvl-eI-8Ha" secondAttribute="leading" constant="25" id="f77-fR-ZKJ"/>
+                            <constraint firstItem="Y2q-QI-aIo" firstAttribute="trailing" secondItem="C4I-WQ-Dag" secondAttribute="trailing" id="g5e-ok-NwP"/>
+                            <constraint firstItem="mui-z8-OgT" firstAttribute="top" secondItem="tvl-eI-8Ha" secondAttribute="top" id="go3-XC-0pT"/>
+                            <constraint firstItem="gnY-Rg-HSP" firstAttribute="leading" secondItem="UE2-HY-1k3" secondAttribute="leading" id="hU4-GG-VZN"/>
+                            <constraint firstAttribute="trailing" secondItem="gnY-Rg-HSP" secondAttribute="trailing" id="hp1-hQ-5tR"/>
+                            <constraint firstItem="C4I-WQ-Dag" firstAttribute="top" secondItem="mui-z8-OgT" secondAttribute="bottom" constant="25" id="i7H-xA-vsg"/>
+                            <constraint firstItem="Y2q-QI-aIo" firstAttribute="top" secondItem="C4I-WQ-Dag" secondAttribute="bottom" id="iEv-LJ-E5R"/>
+                            <constraint firstItem="C4I-WQ-Dag" firstAttribute="centerX" secondItem="UE2-HY-1k3" secondAttribute="centerX" id="kRw-jd-35a"/>
+                            <constraint firstItem="ggk-7F-mzB" firstAttribute="top" secondItem="gnY-Rg-HSP" secondAttribute="bottom" constant="10" id="nIm-sb-Ch2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TM6-Oz-hHD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534.78260869565224" y="2355.8035714285711"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
