@@ -14,6 +14,7 @@ class SearchVC: UIViewController {
 	
 	private var foundRestaurants: [Restaurant]?
 	private var dbRestaurants: [Restaurant]?
+    var vc : Restaurant?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,6 +91,14 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource {
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		print("Clicked on \(foundRestaurants![indexPath.row].name) restaurant")
+        vc = foundRestaurants![indexPath.row]
+        self.performSegue(withIdentifier: "searchTo", sender: self)
+
+
 	}
 	
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       guard let vc2 = segue.destination as? RestaurantDetailsVC else{return}
+        vc2.restaurant = vc
+    }
 }

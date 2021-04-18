@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10661BD9262A7E5700462D64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10661BD8262A7E5700462D64 /* GoogleService-Info.plist */; };
+		10661BDD262A803900462D64 /* ResturantCardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10661BDB262A803900462D64 /* ResturantCardUI.swift */; };
+		10661BDE262A803900462D64 /* ResturantCardUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10661BDC262A803900462D64 /* ResturantCardUI.xib */; };
+		10661BE1262A80B100462D64 /* ResturantsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10661BE0262A80B100462D64 /* ResturantsCard.swift */; };
+		10661BEA262B7E0F00462D64 /* RestaurantDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10661BE9262B7E0F00462D64 /* RestaurantDetailsVC.swift */; };
 		1114419A261BB44D000D13DD /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11144199261BB44D000D13DD /* SearchVC.swift */; };
 		1114419D261BB461000D13DD /* ReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114419C261BB461000D13DD /* ReservationVC.swift */; };
 		111441A0261BB48F000D13DD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1114419F261BB48F000D13DD /* HomeVC.swift */; };
@@ -39,7 +44,6 @@
 		11C0A72A2613F75700B3484D /* RobotoMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A7152613F27900B3484D /* RobotoMono-ExtraLight.ttf */; };
 		11C0A72B2613F75700B3484D /* RobotoMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A70B2613F27800B3484D /* RobotoMono-MediumItalic.ttf */; };
 		11C0A72C2613F75700B3484D /* RobotoMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A70C2613F27800B3484D /* RobotoMono-SemiBoldItalic.ttf */; };
-		11C0A72F2613F91100B3484D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11C0A72E2613F91100B3484D /* GoogleService-Info.plist */; };
 		11F9E0472614004B00F9CA3B /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9E0462614004B00F9CA3B /* StringExt.swift */; };
 		11F9E04C2614023000F9CA3B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9E04B2614023000F9CA3B /* LoginVC.swift */; };
 		11F9E0862616A4D600F9CA3B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F9E0852616A4D600F9CA3B /* MainVC.swift */; };
@@ -48,6 +52,11 @@
 
 /* Begin PBXFileReference section */
 		072C51CB95752A9BE795ED96 /* Pods_LineQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LineQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10661BD8262A7E5700462D64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10661BDB262A803900462D64 /* ResturantCardUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantCardUI.swift; sourceTree = "<group>"; };
+		10661BDC262A803900462D64 /* ResturantCardUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResturantCardUI.xib; sourceTree = "<group>"; };
+		10661BE0262A80B100462D64 /* ResturantsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResturantsCard.swift; sourceTree = "<group>"; };
+		10661BE9262B7E0F00462D64 /* RestaurantDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsVC.swift; sourceTree = "<group>"; };
 		11144199261BB44D000D13DD /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		1114419C261BB461000D13DD /* ReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationVC.swift; sourceTree = "<group>"; };
 		1114419F261BB48F000D13DD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -82,7 +91,6 @@
 		11C0A7152613F27900B3484D /* RobotoMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLight.ttf"; sourceTree = "<group>"; };
 		11C0A7162613F27900B3484D /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
 		11C0A7172613F27900B3484D /* RobotoMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		11C0A72E2613F91100B3484D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		11F9E0462614004B00F9CA3B /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		11F9E04B2614023000F9CA3B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		11F9E0852616A4D600F9CA3B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -128,7 +136,7 @@
 				11C0A6EA2613EB0000B3484D /* Assets.xcassets */,
 				11C0A6EC2613EB0000B3484D /* LaunchScreen.storyboard */,
 				11C0A6EF2613EB0000B3484D /* Info.plist */,
-				11C0A72E2613F91100B3484D /* GoogleService-Info.plist */,
+				10661BD8262A7E5700462D64 /* GoogleService-Info.plist */,
 				11C0A71B2613F5C700B3484D /* Model */,
 				11C0A71C2613F5CC00B3484D /* View */,
 				11C0A71D2613F5D300B3484D /* Controller */,
@@ -186,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				113AC6692627CA2F005F9365 /* Restaurant.swift */,
+				10661BE0262A80B100462D64 /* ResturantsCard.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +202,8 @@
 		11C0A71C2613F5CC00B3484D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				10661BDB262A803900462D64 /* ResturantCardUI.swift */,
+				10661BDC262A803900462D64 /* ResturantCardUI.xib */,
 				113AC6662627C986005F9365 /* SearchCell.swift */,
 			);
 			path = View;
@@ -207,6 +218,7 @@
 				11144199261BB44D000D13DD /* SearchVC.swift */,
 				1114419C261BB461000D13DD /* ReservationVC.swift */,
 				1114419F261BB48F000D13DD /* HomeVC.swift */,
+				10661BE9262B7E0F00462D64 /* RestaurantDetailsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,9 +308,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C0A72F2613F91100B3484D /* GoogleService-Info.plist in Resources */,
+				10661BDE262A803900462D64 /* ResturantCardUI.xib in Resources */,
 				11C0A6EE2613EB0000B3484D /* LaunchScreen.storyboard in Resources */,
 				11C0A7202613F75700B3484D /* RobotoMono-Medium.ttf in Resources */,
+				10661BD9262A7E5700462D64 /* GoogleService-Info.plist in Resources */,
 				11C0A7292613F75700B3484D /* RobotoMono-LightItalic.ttf in Resources */,
 				11C0A6FF2613ED9C00B3484D /* Butler_Medium.otf in Resources */,
 				11C0A7012613ED9C00B3484D /* Butler_Regular.otf in Resources */,
@@ -380,8 +393,11 @@
 				11C0A6E62613EAFA00B3484D /* RegisterVC.swift in Sources */,
 				11926B5C26291D6300F7323B /* DataService.swift in Sources */,
 				113AC6672627C986005F9365 /* SearchCell.swift in Sources */,
+				10661BE1262A80B100462D64 /* ResturantsCard.swift in Sources */,
 				11C0A6E22613EAFA00B3484D /* AppDelegate.swift in Sources */,
+				10661BDD262A803900462D64 /* ResturantCardUI.swift in Sources */,
 				11F9E0472614004B00F9CA3B /* StringExt.swift in Sources */,
+				10661BEA262B7E0F00462D64 /* RestaurantDetailsVC.swift in Sources */,
 				11F9E04C2614023000F9CA3B /* LoginVC.swift in Sources */,
 				11F9E0862616A4D600F9CA3B /* MainVC.swift in Sources */,
 			);
